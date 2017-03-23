@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Minzhuo Jin"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a faithful MapleStory player, a Star Wars fan, and a Computer Science student. I'm interested in trying out new technologies and coding fun stuff."
+  bio              : "I'm a faithful MapleStory player, a Star Wars fan, and a CS student. I'm interested in trying out new technologies and coding fun stuff."
   location         : "Fort Collins"
   email            : "website@conjee.info"
   uri              : "https://conjee.info"
