@@ -11,4 +11,4 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Public Key"
-    url: /public-key/
+    url: /public-key

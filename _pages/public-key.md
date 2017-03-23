@@ -5,7 +5,7 @@ sitemap: true
 permalink: /public-key.html
 ---
 
-```Public Key
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
 
