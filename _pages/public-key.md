@@ -5,10 +5,7 @@ sitemap: true
 permalink: /public-key.html
 ---
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v2
-
+```Public Key
 mQENBFjTztkBCACo3+2sQ3T8HWXVijOtz8BSXEwxUTJ9GoDUFzPZQ+qg2+G07Msi
 GkIFfJNQdXAQfF033EA3HmcBvnD6hHtzyfH1tYZ6AUrOFzu1lRyGuf2BR3OVVRZP
 iYlJfNh7HtholQhfmRXP9UM8o1gvGlv6R8REkiyq9RPCVB53pOovNyQpHFCP+TQJ
@@ -35,7 +32,6 @@ kkI24RJ03WXqTljd3n5RmJXKZE9hWVT8xRIXaLOgsKvJD2GEHctem6IKDtq/e9Ve
 iLIYQGPJ0kSc+5D+2Y0lUcyb7VI55VR+sK3KTWLxAD7YlyvWd0+u1Q6/z+kmwcxe
 EVdwRJRzuyoXqg5UtfGqQr/9FvM4CNIA1TkG8OQGTQ==
 =84Yt
------END PGP PUBLIC KEY BLOCK-----
 ```
 
 Also available at <https://conjee.info/assets/certificates/BB7B3EF592ABA745BF5694E6E1D85EB82D90A2AB.asc>.
