@@ -1,6 +1,7 @@
 ---
 title: "Public Key"
 excerpt: "PGP Public Key for Authorization and Encrypted Communication"
+author_profile: true
 sitemap: true
 permalink: /public-key.html
 ---
