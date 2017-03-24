@@ -11,7 +11,7 @@ excerpt: Solve annoying problems related to OneDrive by uninstalling or reinstal
 Windows 10 integrates OneDrive Service by default. However, it's annoying for users who don't use Onedrive:
 
 1. Runs at startup
-2. Stays at the left column in file explorer
+2. Pinned at the left panel in File Explorer
 3. Appears in Open/Save dialog boxes
 4. Error prompts
 
@@ -21,23 +21,25 @@ To fix 1, you can disable OneDrive in Task Manager - Startup. [Uninstalling OneD
 
 ##### How to uninstall
 
-1. Right-Click on the Windows icon on your taskbar and choose `Command Prompt (Admin)`
+1. Right-click on the Windows icon on your taskbar and choose `Command Prompt (Admin)`
 2. Enter `taskkill /f /im OneDrive.exe` to kill OneDrive process if it's running
 3. Run `%SystemRoot%\System32\OneDriveSetup.exe /uninstall` if you have a 32-bit system or `%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall` if you have a 64-bit system
 
-You won't see any returning message, but OneDrive is uninstalled.
+You won't see any feedback message, but OneDrive is uninstalled.
 
 ##### How to reinstall
 
-Execute the proper `OneDriveSetup.exe`.
-In 32-bit system, It's `%SystemRoot%\System32\OneDriveSetup.exe`.
-In 64-bit system, It's `%SystemRoot%\SysWOW64\OneDriveSetup.exe`.
+Run the proper Setup Program:
+
+`%SystemRoot%\System32\OneDriveSetup.exe` in a 32-bit system and
+
+`%SystemRoot%\SysWOW64\OneDriveSetup.exe` in a 64-bit system.
 
 #### Edit Registry to remove OneDrive entry from File Explorer
 
 1. Right-Click on the Windows icon on your task bar and choose `Run`
 2. Enter `regedit` to open Registry Editor
-3. Navigate to `HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}` Note: You can search (Ctrl + F) for `{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
+3. Navigate to `HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}` Note: You can search (shortcut: `Ctrl + F`) for `{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
 4. Change the value of `System.IsPinnedToNameSpaceTree` to `0`
 
 OneDrive entry should disappear from your File Explorer now. To restore, Change the value back to `1`.
