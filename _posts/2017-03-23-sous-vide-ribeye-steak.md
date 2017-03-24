@@ -50,6 +50,6 @@ Medium done steak without burning the outside:
 
 ![Inside]({{ site.url }}{{ site.baseurl }}/assets/images/sous-vide-ribeye-steak/inside.jpg)
 
-The result is more tender than triditionally seared steak. Besides, the flavoring can penetrate deep into the meat during the bath.
+The result is more tender than traditionally seared steak. Besides, the flavoring can penetrate deep into the meat during the bath.
 
 ![Juicy]({{ site.url }}{{ site.baseurl }}/assets/images/sous-vide-ribeye-steak/juicy.jpg)
