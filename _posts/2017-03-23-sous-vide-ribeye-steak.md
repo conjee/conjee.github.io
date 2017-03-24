@@ -1,5 +1,7 @@
 ---
 title: Sous Vide Ribeye Steak
+header:
+  teaser: /assets/images/sous-vide-ribeye-steak/inside.jpg
 categories: 
   - Cooking
 tags: 

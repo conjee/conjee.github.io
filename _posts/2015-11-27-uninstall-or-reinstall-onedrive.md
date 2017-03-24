@@ -1,5 +1,7 @@
 ---
 title: How to Uninstall or Reinstall OneDrive in Windows 10
+header:
+  teaser: /assets/images/uninstall-or-reinstall-onedrive/onedrive.jpg
 categories: 
   - Tricks
 tags: 

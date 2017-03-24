@@ -1,5 +1,7 @@
 ---
 title: A Tip for Moka Pot Buyers
+header:
+  teaser: /assets/images/a-tip-for-moka-pot-buyers/less-coffee-made.jpg
 categories: 
   - Coffee
 tags: 
@@ -10,7 +12,7 @@ excerpt: If you ever want to buy a Moka pot, check its design carefully.
 
 I have a Bialetti Venus. It works well except for one problem.
 
-![Bialetti Venus]({{ site.url }}{{ site.baseurl }}/assets/images/bialetti-venus.jpg)
+![Bialetti Venus]({{ site.url }}{{ site.baseurl }}/assets/images/a-tip-for-moka-pot-buyers/bialetti-venus.jpg)
 
 Before I tell you what exactly the problem is, you need to understand how a Moka pot works. The video below explains it.
 
@@ -20,9 +22,9 @@ For more information, see this [Wikipedia Page](https://en.wikipedia.org/wiki/Mo
 
 The problem is that the pipe of the basket isn't long enough for all the water to be pushed up to upper space of the pot. This results in less coffee extracted and remaining water in the bottom chamber every time I brew coffee.
 
-![Moka Pot Problem]({{ site.url }}{{ site.baseurl }}/assets/images/moka-pot-problem.png)
+![Moka Pot Problem]({{ site.url }}{{ site.baseurl }}/assets/images/a-tip-for-moka-pot-buyers/moka-pot-problem.png)
 
-![Less Coffee Made]({{ site.url }}{{ site.baseurl }}/assets/images/less-coffee-made.jpg)
+![Less Coffee Made]({{ site.url }}{{ site.baseurl }}/assets/images/a-tip-for-moka-pot-buyers/less-coffee-made.jpg)
 
 There should be some remaining water in case you forget to turn off the stove. But I consider the short pipe of this Moka pot a design flaw.
 
