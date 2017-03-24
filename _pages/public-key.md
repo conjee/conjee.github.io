@@ -39,4 +39,4 @@ EVdwRJRzuyoXqg5UtfGqQr/9FvM4CNIA1TkG8OQGTQ==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Also available at <https://conjee.info/assets/certificates/BB7B3EF592ABA745BF5694E6E1D85EB82D90A2AB.asc>.
+Also available at <{{ site.url }}{{ site.baseurl }}/assets/certificates/BB7B3EF592ABA745BF5694E6E1D85EB82D90A2AB.asc>.
