@@ -63,10 +63,10 @@ You can also use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to re
 
 After [Registration](https://vnet.link/?rc=21400), create a connection point like this:
 
-![Connection Point Setup]({{ site.url }}{{ site.baseurl }}/assets/images/connection-point-setup.png)
+![Connection Point Setup]({{ site.url }}{{ site.baseurl }}/assets/images/tunnel/connection-point-setup.png)
 
 Then change your client settings accordingly:
 
-![Client settings CN2]({{ site.url }}{{ site.baseurl }}/assets/images/client-settings-cn2.png)
+![Client settings CN2]({{ site.url }}{{ site.baseurl }}/assets/images/tunnel/client-settings-cn2.png)
 
 I recommend you to create a new server profile for this and keep the old one. This way, you can switch to the original settings flexibly to minimize data usage.

@@ -1,7 +1,7 @@
 ---
 title: A Tip for Moka Pot Buyers
 header:
-  teaser: /assets/images/a-tip-for-moka-pot-buyers/less-coffee-made.jpg
+  teaser: /assets/images/a-tip-for-moka-pot-buyers/moka-pot.jpg
 categories: 
   - Coffee
 tags: 
