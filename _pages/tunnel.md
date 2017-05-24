@@ -39,9 +39,37 @@ You can find information of clients for various devices (PCs, Macs, smartphones,
 
 Unfortunately, even the official websites and download links of these client software may be inaccessible in censored areas.
 
+Here are backup download links for some clients:
+
+### shadowsocks-windows
+
+Version: `4.0.2`
+
+[Download](https://mega.nz/#!cQZERCJZ!hROefvj2ACjxtMCRbffpTAUbVQ59jZq44_eKxJyCB10)
+
+SHA1: `A8A3E8FFE938712A41875CB6D2218F12A40B2D94`
+
+### ShadowsocksX-NG
+
+Version: `1.5.1`
+
+[Download](https://mega.nz/#!ZJ42mBCA!OF9b9MNbW4ycvje817fkDqY7bWgvjISPJFKWHBJvqXU)
+
+SHA1: `3C6F6A30F43C807681C950CE0B1E6951BE8BE4B7`
+
+### shadowsocks-android
+
+Version: `4.1.7`
+
+[Download](https://mega.nz/#!gMh0kKKK!OGk-itwwPxP8ER10uzhWF-DAdxvp4AEnWnadeqFqq2c)
+
+SHA1: `A0E6E03006E02FAE82B896E0F5184D172852C0F2`
+
+These are not guaranteed to be latest versions. Remember to update once you have access to official download links.
+
 ## Support
 
-If you have any problem using this service, contact tunnel@conjee.info.
+If you have any problem using this service, contact <tunnel@conjee.info>.
 
 Please note that I may not be able to reply immediately. Your patience is appreciated.
 
@@ -65,12 +93,3 @@ China Telecom users can order `国际精品网` by calling customer service to u
 
 You can also use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to route your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server.
 
-After [Registration](https://vnet.link/?rc=21400), create a connection point like this:
-
-![Connection Point Setup]({{ site.url }}{{ site.baseurl }}/assets/images/tunnel/connection-point-setup.png)
-
-Then change your client settings accordingly:
-
-![Client settings CN2]({{ site.url }}{{ site.baseurl }}/assets/images/tunnel/client-settings-cn2.png)
-
-I recommend you to create a new server profile for this and keep the old one. This way, you can switch to the original settings flexibly to minimize data usage.
