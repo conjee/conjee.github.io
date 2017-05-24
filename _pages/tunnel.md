@@ -7,7 +7,7 @@ permalink: /tunnel.html
 
 ## Announcements
 
-In response to common slow connection & packet loss issue reported recently, a [KCP-enabled version](https://conjee.info/kunnel) of this service is launched.
+In response to common slow connection & packet loss issues reported recently, a [KCP-enabled version](https://conjee.info/kunnel) of this service is launched.
 
 Hopefully, it will provide a faster & more stable connection at the cost of a bit more configuration.
 
@@ -15,7 +15,7 @@ Another workaround is to use a CN2 routing service (see the instructions at the 
 
 ## Warnings
 
-1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to enagege in any improper activities with this service.
+1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to engage in any improper activities with this service.
 
 ## Configuration
 
@@ -33,11 +33,11 @@ Key: `tamedowl`
 
 ## Clients
 
-`Shadowsocks` is a protocol. You need a client software to use this service. Configuration above just tells the client how to connect to the proxy server I set up.
+`Shadowsocks` is a protocol. You need a client software to use this service. The configuration above just tells the client how to connect to the proxy server I set up.
 
 You can find information of clients for various devices (PCs, Macs, smartphones, etc.) on [this page](https://shadowsocks.org/en/download/clients.html).
 
-Unfortunately, even the official websites and download links of these client software may be inaccessible in censored areas.
+Unfortunately, even the official websites and download links of this client software may be inaccessible in censored areas.
 
 Here are backup download links for some clients:
 
@@ -81,7 +81,7 @@ Simply telling me "This stuff doesn't work" is not very helpful. Try include inf
 
 2. Network Situation: How are you accessing the Internet? Can you at least reach the server IP address?
 
-3. Configuration you are using.
+3. The configuration you are using.
 
 4. Logs.
 

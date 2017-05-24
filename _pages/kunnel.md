@@ -13,9 +13,9 @@ Hopefully, it will provide a faster & more stable connection at the cost of a bi
 
 ## Warnings
 
-1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to enagege in any improper activities with this service.
+1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to engage in any improper activities with this service.
 
-2. Higher data & battery consumption is expected beacuse of KCP's nature. Be careful if you are using this on a mobile device.
+2. Higher data & battery consumption is expected because of KCP's nature. Be careful if you are using this on a mobile device.
 
 ## Configuration
 
@@ -33,4 +33,4 @@ KCP Client parameters: `--dscp 46 --key "tamedowl"` (Use the default value for o
 
 ## Clients
 
-To use KCP, additional tools may be necessary on some platforms.
+Additional tools may be necessary on some platforms to enable KCP.
