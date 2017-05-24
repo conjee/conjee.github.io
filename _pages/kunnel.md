@@ -31,6 +31,3 @@ SHadowsocks Encryption Key: `tamedowl`
 
 KCP Client parameters: `--dscp 46 --key "tamedowl"` (Use the default value for others)
 
-## Clients
-
-Additional tools may be necessary on some platforms to enable KCP.

@@ -45,7 +45,7 @@ Here are backup download links for some clients:
 
 Version: `4.0.2`
 
-[Download](https://mega.nz/#!cQZERCJZ!hROefvj2ACjxtMCRbffpTAUbVQ59jZq44_eKxJyCB10)
+[Download](http://7xpctq.com1.z0.glb.clouddn.com/Shadowsocks-4.0.2.zip)
 
 SHA1: `A8A3E8FFE938712A41875CB6D2218F12A40B2D94`
 
@@ -53,7 +53,7 @@ SHA1: `A8A3E8FFE938712A41875CB6D2218F12A40B2D94`
 
 Version: `1.5.1`
 
-[Download](https://mega.nz/#!ZJ42mBCA!OF9b9MNbW4ycvje817fkDqY7bWgvjISPJFKWHBJvqXU)
+[Download](http://7xpctq.com1.z0.glb.clouddn.com/ShadowsocksX-NG.1.5.1.zip)
 
 SHA1: `3C6F6A30F43C807681C950CE0B1E6951BE8BE4B7`
 
@@ -61,7 +61,7 @@ SHA1: `3C6F6A30F43C807681C950CE0B1E6951BE8BE4B7`
 
 Version: `4.1.7`
 
-[Download](https://mega.nz/#!gMh0kKKK!OGk-itwwPxP8ER10uzhWF-DAdxvp4AEnWnadeqFqq2c)
+[Download](http://7xpctq.com1.z0.glb.clouddn.com/shadowsocks-nightly-4.1.7.apk)
 
 SHA1: `A0E6E03006E02FAE82B896E0F5184D172852C0F2`
 
@@ -87,9 +87,9 @@ Simply telling me "This stuff doesn't work" is not very helpful. Try include inf
 
 ## [Optional] High-Quality Connection through China Telecom's Next Generation Network
 
-The basic settings should be sufficient for web searching. However, you can get better connection quality by using China Telecom's Next Generation Network, CN2. It can greatly reduce package loss rate and optimize bandwidth. I have no problem streaming 1080p Youtube videos with this tweak.
+The basic settings should be sufficient for basic web browsing. However, you can get better connection quality by using China Telecom's Next Generation Network, CN2. It can greatly reduce package loss rate and optimize bandwidth.
 
-China Telecom users can order `国际精品网` by calling customer service to use CN2 in some provinces. The price is 50 RMB per month if I remember it correctly. And you can only use it with appointed ADSL account.
+You can use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to route your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server.
 
-You can also use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to route your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server.
+Since VnetLink's website is probably blocked, I suggest setup Shadowsocks with the basic settings first and create a new profile after the routing configuration is done.
 
