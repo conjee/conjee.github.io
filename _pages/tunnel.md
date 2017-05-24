@@ -11,11 +11,11 @@ In response to common slow connection & packet loss issue reported recently, a [
 
 Hopefully, it will provide a faster & more stable connection at the cost of a bit more configuration.
 
-Another workaround is to use a CN2 routing service (see the instructions below), for which one often need to pay to a third-party service provider.
+Another workaround is to use a CN2 routing service (see the instructions at the end of this page), for which one will always need to pay to a third-party service provider.
 
-## Warning
+## Warnings
 
-The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to enagege in any improper activities with this service.
+1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to enagege in any improper activities with this service.
 
 ## Configuration
 
