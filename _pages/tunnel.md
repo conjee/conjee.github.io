@@ -1,65 +1,69 @@
 ---
 title: "tunnel"
-excerpt: "A Shadowsocks proxy server for academic use only."
+excerpt: "A Shadowsocks proxy server"
 sitemap: false
 permalink: /tunnel.html
 ---
 
-## News
+## Announcements
 
-The server went down at 2017-01-07 15:32:29 UTC due to a software failure. It is restarted on 2017-01-10 UTC.
+In response to common slow connection & packet loss issue reported recently, a [KCP-enabled version](https://conjee.info/kunnel) of this service is launched.
 
-~~An update from the upstream will fix the bug soon. Meanwhile, avoid visiting any site with a long domain name.~~
+Hopefully, it will provide a faster & more stable connection at the cost of a bit more configuration.
 
-Update complete on 2017-01-22. Bug fixed.
+Another workaround is to use a CN2 routing service (see the instructions below), for which one often need to pay to a third-party service provider.
 
 ## Warning
 
-1. This proxy server is for academic use only!
-2. You are *NOT* allowed to share any information provided by this page.
+The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to enagege in any improper activities with this service.
 
 ## Configuration
 
-Protocol: Shadowsocks
+Protocol: `Shadowsocks`
 
 Server Address: `tunnel.conjee.info`
 
-Port: `11985`
+Port: `443`
 
-Encryption Method: *aes-128-cfb*
+Encryption Method: `aes-128-cfb`
 
-Key: `yiban666`
+Key: `tamedowl`
 
-[One Time Auth](https://shadowsocks.org/en/spec/one-time-auth.html) is supported.
+`UDP relay mode` is enabled.
 
 ## Clients
 
-### For Windows
+`Shadowsocks` is a protocol. You need a client software to use this service. Configuration above just tells the client how to connect to the proxy server I set up.
 
-#### shadowsocks-windows
+You can find information of clients for various devices (PCs, Macs, smartphones, etc.) on [this page](https://shadowsocks.org/en/download/clients.html).
 
-Download [here](https://github.com/shadowsocks/shadowsocks-windows/releases)
+Unfortunately, even the official websites and download links of these client software may be inaccessible in censored areas.
 
-#### How-to
+## Support
 
-1. Add this server using the configuration above
-2. Update PAC file from GFWList
-3. Enable System Proxy
-4. Make sure your browser's proxy is set to use system's default settings
+If you have any problem using this service, contact tunnel@conjee.info.
 
-### For Android
+Please note that I may not be able to reply immediately. Your patience is appreciated.
 
-#### shadowsocks-android
+If you are unable to use this service, please include as many details as you can.
 
-Download [here](https://github.com/shadowsocks/shadowsocks-android/releases)
+Simply telling me "This stuff doesn't work" is not very helpful. Try include information such as:
 
-## [Optional] Higher Connection Quality through China Telecom's Next Generation Network
+1. Software Environment: Operating System, Client Software, etc.
+
+2. Network Situation: How are you accessing the Internet? Can you at least reach the server IP address?
+
+3. Configuration you are using.
+
+4. Logs.
+
+## [Optional] High-Quality Connection through China Telecom's Next Generation Network
 
 The basic settings should be sufficient for web searching. However, you can get better connection quality by using China Telecom's Next Generation Network, CN2. It can greatly reduce package loss rate and optimize bandwidth. I have no problem streaming 1080p Youtube videos with this tweak.
 
 China Telecom users can order `国际精品网` by calling customer service to use CN2 in some provinces. The price is 50 RMB per month if I remember it correctly. And you can only use it with appointed ADSL account.
 
-You can also use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to redirect your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server. The price is 1 RMB per GB data usage. This is the method I am using. It's cheaper and accessible everywhere.
+You can also use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to route your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server.
 
 After [Registration](https://vnet.link/?rc=21400), create a connection point like this:
 
