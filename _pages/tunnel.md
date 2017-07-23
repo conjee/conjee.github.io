@@ -11,11 +11,9 @@ In response to common slow connection & packet loss issues reported recently, a 
 
 Hopefully, it will provide a faster & more stable connection at the cost of a bit more configuration.
 
-Another workaround is to use a CN2 routing service (see the instructions at the end of this page), for which one will always need to pay to a third-party service provider.
-
 ## Warnings
 
-1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to engage in any improper activities with this service.
+1. The proxy server is located in the United States. Violations of Federal Laws and Regulations will lead to an end of this service. Please be mindful not to engage in any improper activity with this service.
 
 ## Configuration
 
@@ -25,11 +23,13 @@ Server Address: `tunnel.conjee.info`
 
 Port: `443`
 
-Encryption Method: `aes-128-cfb`
+Encryption Method: `chacha20-ietf-poly1305`
 
-Key: `tamedowl`
+Key: `conjee.info/tunnel`
 
-`UDP relay mode` is enabled.
+`UDP relay mode` is supported
+
+URL: `ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjb25qZWUuaW5mby90dW5uZWxAdHVubmVsLmNvbmplZS5pbmZvOjQ0Mw==#tunnel`
 
 ## Clients
 
@@ -84,12 +84,4 @@ Simply telling me "This stuff doesn't work" is not very helpful. Try include inf
 3. The configuration you are using.
 
 4. Logs.
-
-## [Optional] High-Quality Connection through China Telecom's Next Generation Network
-
-The basic settings should be sufficient for basic web browsing. However, you can get better connection quality by using China Telecom's Next Generation Network, CN2. It can greatly reduce package loss rate and optimize bandwidth.
-
-You can use [VnetLink](https://vnet.link/?rc=21400)'s vxTrans service to route your Shadowsocks connection through their CN2 server. This works well for most users in China as long as they have a good connection to VnetLink's CN2 server.
-
-Since VnetLink's website is probably blocked, I suggest setup Shadowsocks with the basic settings first and create a new profile after the routing configuration is done.
 
