@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Generator as Iterator"
+title: "Use Python Generator as Iterator"
 categories: programming
 ---
 
