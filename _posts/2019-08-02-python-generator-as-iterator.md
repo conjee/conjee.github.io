@@ -91,7 +91,7 @@ We can now create and view linked lists easily:
 
 A Python object is said to be *iterable* if the built-in function [`iter`](https://docs.python.org/3/library/functions.html#iter) returns an *iterator* on it. An *iterator* should have a `__next__` method that returns the next element every time it's called or raise a `StopIteration` exception if it exhausts all elements.
 
-For a user defined class to be *iterable*, defining an `__iter__` method that returns an *iterator* is __sufficient__.
+For a user-defined class to be *iterable*, defining an `__iter__` method that returns an *iterator* is __sufficient__.
 
 An *iterator* should also have an `__iter__` method that usually returns `self` so that the *iterator* itself is *iterable*. 🤔
 
