@@ -9,21 +9,20 @@ categories: programming
 You can define the `__iter__` method as a *generator function* to avoid the boilerplate code of defining an *iterator* class:
 
 {% highlight python %}
-class RepeatedOneTwoThree:
-    def __init__(self, times):
-        self._times = times
+class FibonacciSeries:
+    def __init__(self, n):
+        self._n = n
+        self._prev, self._curr = 0, 1
 
     def __iter__(self):
-        for _ in range(self._times):
-            yield 1
-            yield 2
-            yield 3
+        for _ in range(self._n):
+            yield self._curr
+            self._prev, self._curr = self._curr, self._prev + self._curr
 {% endhighlight %}
 
 ```
->>> rott = RepeatedOneTwoThree(2)
->>> list(rott)
-[1, 2, 3, 1, 2, 3]
+list(FibonacciSeries(10))
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 ```
 
 ## Background Problem
