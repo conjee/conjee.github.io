@@ -2,9 +2,12 @@
 layout: post
 title: "Using Python Generator as Iterator"
 categories: programming
+description: "Generator functions can be used to easily implement the iterable protocol."
 ---
 
-TL;DR: You can define the `__iter__` method as a *generator function* to avoid the boilerplate code of defining an *iterator* class when implementing the *iterable* protocol:
+## TL;DR
+
+You can define the `__iter__` method as a *generator function* to avoid the boilerplate code of defining an *iterator* class when implementing the *iterable* protocol:
 
 {% highlight python %}
 class FibonacciSeries:
