@@ -197,7 +197,7 @@ That's it! 😀 We saved a lot of boilerplate code by implementing the `__iter__
 
 Well, how does that work? Despite the name *generator function* and the keyword `def`, we shouldn't interpret a *generator function* in the same way for a normal function. We were, instead, instructing Python to generate 🙃 the definition for a *generator* factory function named `__iter__`. When `__iter__` is called, it returns a new *generator* object which produces exactly the objects we `yield`. Because *generator* objects automatically implement the *iterator* protocol, they can be used as *iterator*s.
 
-## Back to the Problem
+## Back to the Problem...
 
 ```
 >>> xs = LinkedList.of(2, 3, 8)
