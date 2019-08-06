@@ -22,7 +22,7 @@ class FibonacciSeries:
 {% endhighlight %}
 
 ```
-list(FibonacciSeries(10))
+>>> list(FibonacciSeries(10))
 [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 ```
 
@@ -61,9 +61,11 @@ Let's first wrap a linked list in a `LinkedList` class that provides utility met
 
 {% highlight python %}
 class LinkedList:
-    def __init__(self, *xs):
+    def __init__(self, nums=None):
         self._head = None
-        for x in reversed(xs):
+        if nums is None:
+            return
+        for x in reversed(nums):
             self._head = Node(x, self._head)
     
     def __str__(self):
@@ -75,16 +77,31 @@ class LinkedList:
         else:
             s += 'None'
         return s
+
+    @classmethod
+    def at(cls, head):
+        ll = cls()
+        ll._head = head
+        return ll
+
+    @classmethod
+    def of(cls, *nums):
+        return cls(nums)
 {% endhighlight %}
 
 We can now create and view linked lists easily:
 
 ```
->>> xs = LinkedList(2, 3, 8)
->>> ys = LinkedList(1, 4, 5)
->>> zs = LinkedList(2, 6)
+>>> plain_xs = Node(2, Node(3, Node(8)))
+>>> xs = LinkedList.at(plain_xs)
+>>> ys = LinkedList([1, 4, 5])
+>>> zs = LinkedList.of(2, 6)
 >>> print(xs)
 2 -> 3 -> 8 -> None
+>>> print(ys)
+1 -> 4 -> 5 -> None
+>>> print(zs)
+2 -> 6 -> None
 ```
 
 ## What Makes a Python Object Iterable?
@@ -103,9 +120,11 @@ We'll define an `__iter__` method to make our `LinkedList` class iterable. For c
 
 {% highlight python %}
 class LinkedList:
-    def __init__(self, *xs):
+    def __init__(self, nums=None):
         self._head = None
-        for x in reversed(xs):
+        if nums is None:
+            return
+        for x in reversed(nums):
             self._head = Node(x, self._head)
 
     class Iterator:
@@ -127,6 +146,16 @@ class LinkedList:
 
     def __str__(self):
         return ' -> '.join([str(x) for x in self] + ['None'])
+
+    @classmethod
+    def at(cls, head):
+        ll = cls()
+        ll._head = head
+        return ll
+
+    @classmethod
+    def of(cls, *nums):
+        return cls(nums)
 {% endhighlight %}
 
 We defined a `LinkedList.Iterator` class and made the `__iter__` method return a new instance of it.
@@ -137,9 +166,11 @@ The `__str__` method was modified to take advantage of the new *iterable* proper
 
 {% highlight python %}
 class LinkedList:
-    def __init__(self, *xs):
+    def __init__(self, nums=None):
         self._head = None
-        for x in reversed(xs):
+        if nums is None:
+            return
+        for x in reversed(nums):
             self._head = Node(x, self._head)
 
     def __iter__(self):
@@ -150,6 +181,16 @@ class LinkedList:
 
     def __str__(self):
         return ' -> '.join([str(x) for x in self] + ['None'])
+
+    @classmethod
+    def at(cls, head):
+        ll = cls()
+        ll._head = head
+        return ll
+
+    @classmethod
+    def of(cls, *nums):
+        return cls(nums)
 {% endhighlight %}
 
 That's it! 😀 We saved a lot of boilerplate code by implementing the `__iter__` method as a *generator function*.
@@ -159,9 +200,9 @@ Well, how does that work? Despite the name *generator function* and the keyword 
 ## Back to the Problem
 
 ```
->>> xs = LinkedList(2, 3, 8)
-... ys = LinkedList(1, 4, 5)
-... zs = LinkedList(2, 6)
+>>> xs = LinkedList.of(2, 3, 8)
+... ys = LinkedList.of(1, 4, 5)
+... zs = LinkedList.of(2, 6)
 ... 
 ... import heapq
 ... print(', '.join(str(x) for x in heapq.merge(xs, ys, zs)))
@@ -172,4 +213,4 @@ For simplicity, I concatenated sorted numbers into a string and printed them out
 
 ## Endnote
 
-There're few good reasons to implement linked lists in Python - probably [`collections.deque`](https://docs.python.org/3/library/collections.html#deque-objects) is all you need. The takeaway here is the convenient way of implementing the *iterable* protocol by defining `__iter__` as a *generator function*.
+There're few good reasons to implement such a `LinkedList` in Python - probably [`collections.deque`](https://docs.python.org/3/library/collections.html#deque-objects) is all you need. The takeaway here is the convenient way of implementing the *iterable* protocol by defining `__iter__` as a *generator function*.
