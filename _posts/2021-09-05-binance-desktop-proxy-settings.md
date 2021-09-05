@@ -2,7 +2,7 @@
 layout: post
 title: "Binance Desktop Proxy Settings"
 categories: notes
-description: "Steps to configure network proxy settings for Binance desktop App."
+description: "Steps to configure network proxy settings for Binance desktop app."
 ---
 
 ## The Command Line Trick to Set Proxy Server
@@ -11,7 +11,7 @@ I can't find proxy server settings within Binance Desktop's GUI. But the Electro
 
     /Applications/Binance.app/Contents/MacOS/Binance --proxy-server="socks5://proxy-host:1080"
 
-There're many ways to "redirect" the connections, but I found this suitable for my needs as it's easy to setup and doesn't affect other apps. I use it with ssh dynamic port fowarding:
+There're many ways to "redirect" the connections, but I found this suitable for my needs as it's easy to set up and doesn't affect other apps. I use it with ssh dynamic port fowarding:
 
     ssh -D 1080 -q -C -N -f my-proxy-server
     /Applications/Binance.app/Contents/MacOS/Binance --proxy-server="socks5://localhost:1080"
