@@ -1,8 +1,9 @@
 ---
+title: Binance Desktop Proxy Settings
 layout: post
-title: "Binance Desktop Proxy Settings"
-categories: notes
-description: "Steps to configure network proxy settings for Binance desktop app."
+categories:
+- notes
+description: Steps to configure network proxy settings for Binance desktop app.
 ---
 
 ## The Command Line Trick to Set Proxy Server
@@ -35,4 +36,3 @@ function FindProxyForURL(url, host) {
 `--proxy-pac-url=` argument unfortunately stopped supporting local files (`file://...`), but there's a simple workaround -- loading the file as an HTTP response:
 
     /Applications/Binance.app/Contents/MacOS/Binance --proxy-pac-url='data:application/x-javascript-config;base64,'$(base64 $PAC_FILE_PATH)
-

@@ -1,7 +1,8 @@
 ---
+title: Sous Vide Ribeye Steak
 layout: post
-title: "Sous Vide Ribeye Steak"
-categories: life
+categories:
+- life
 ---
 
 I’m happy to share my recent experience of sous-vide cooking a ribeye steak. It smells good and tastes amazing. Also, the procedure is fairly simple.

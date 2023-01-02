@@ -1,7 +1,8 @@
 ---
+title: Problem with My Old Moka Pot
 layout: post
-title: "Problem with My Old Moka Pot"
-categories: life
+categories:
+- life
 ---
 
 I have a Bialetti Venus, which I liked, except for one problem...

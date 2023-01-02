@@ -1,8 +1,9 @@
 ---
+title: Using Python Generator as Iterator
 layout: post
-title: "Using Python Generator as Iterator"
-categories: programming
-description: "Generator functions can be used to easily implement the iterable protocol."
+categories:
+- programming
+description: Generator functions can be used to easily implement the iterable protocol.
 ---
 
 ## TL;DR

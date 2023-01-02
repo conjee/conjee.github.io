@@ -1,8 +1,10 @@
 ---
+title: Wireshark Permission Issues on Clear Linux
 layout: post
-title: "Wireshark Permission Issues on Clear Linux"
-categories: notes
-description: "Permission issues with Wireshark ran as a non-root user can be fixed by setting dumpcap permissions and privileges."
+categories:
+- notes
+description: Permission issues with Wireshark ran as a non-root user can be fixed
+  by setting dumpcap permissions and privileges.
 ---
 
 ## The Problem
