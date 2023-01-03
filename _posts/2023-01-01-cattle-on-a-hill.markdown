@@ -5,4 +5,7 @@ categories:
 - life
 ---
 
-<video preload="metadata" muted="true" controls style="width: 100%;" src="https://customer-xic6n6cl579bz1zy.cloudflarestream.com/8ffb1a84bd2b6509775a0a7e73d8488e/downloads/default.mp4"></video>
+<video preload="metadata" muted="true" controls style="width: 100%;">
+	<source type="video/webm" src="https://link.storjshare.io/raw/ju5rf272l367l4aidezvowa33t2q/media/cattle_on_a_hill.webm" />
+  <source type="video/mp4" src="https://link.storjshare.io/raw/ju6eqvpxrc4thrzrhsskxifwihra/media/cattle_on_a_hill.mp4" />
+</video>
