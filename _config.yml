@@ -18,14 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Minzhuo's Home Page
-author: Minzhuo Jin
+title: Minzhuo's Homepage
 email: mzjin@conjee.info
 description: >- # this means to ignore newlines until "baseurl:"
   A place for discoveries, records, and thoughts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://conjee.info" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-145055367-1
+google_analytics: G-78PYPTKHWE
 github_username: conjee
 
 # Build settings
